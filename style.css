@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:ital,wght@0,100;0,300;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@700&family=Roboto:ital,wght@0,100;0,300;0,500;1,500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    height:100vh;
+    background: #04695c;
+    color:white;
+}
+
+header {
+    display:flex;
+    justify-content: flex-end;
+    height:18vh;
+    width:95%;
+    align-items: center;
+}
+
+header ul{
+    display:flex;
+    list-style: none;
+    width:30%;
+    justify-content:space-around;c
+    
+}
+
+header ul li{
+    font-size:1.5rem;
+    cursor:pointer;
+}
+
+header ul img{
+    height:2rem;
+}
+
+main{
+    height:85vh;
+    display:flex;
+}
+
+main .left{
+    width:35%;
+}
+
+main .left{
+    display: grid;
+    grid-template-rows: 80% auto;
+
+}
+
+main .left .top{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .left h1{
+    font-size:5rem;
+    margin-left: 2rem ;
+    font-family: 'Roboto';
+}
+
+main .left .top p{
+    writing-mode: vertical-lr;
+}
+
+main .left .bottom{
+    background:white;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+main .left .bottom p{
+    font-size: 1.3rem;
+}
+
+main .left .bottom h2{
+    font-size: 2rem;
+}
+
+main .right{
+    display: grid;
+    grid-template-rows: 80% auto;
+    width:65%;
+}
+
+main .right .top{
+    display:flex;
+    align-items: center;
+}
+
+main .right .top img{
+    height:25rem;
+    filter:drop-shadow(12px 12px 7px rgba(255,255,255, 0.3));
+}
+
+main .right .top .b{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:80%;
+    width:100%;
+    align-items: center;
+}
+
+
+main .right .top .b h2{
+    font-size: 4.5rem;
+    margin-right: 7rem;
+}
+
+main .right .top ul{
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+main .right .bottom p{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    width:50%;
+}
+
+.limited{
+    background: #212121;
+    color: white;
+    padding:1rem;
+    position: absolute;
+    right:0;
+    writing-mode: vertical-rl;
+    top:-50%;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
